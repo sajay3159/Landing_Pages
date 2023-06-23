@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+/* ..............Header Start ............*/
+.division{
+    position: relative;
+}
+.header1{
+    background-color: #103178;
+    color: yellow;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.right a{
+    color: #103178;
+    text-decoration: none;
+}
+.right a:hover{
+    color: white;
+    background-color: green;
+}
+.social a{
+    padding: 23px 15px 23px 15px;
+}
+.contact a{
+    padding: 23px 15px 23px 15px;
+}
+.menu ul li{
+    color: #103178;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 23px 15px 21px 15px ;
+}
+.menu ul li:hover{
+    color: white;
+    background-color: green;
+}
+.left{
+    width: 30%;
+}
+.heading{
+    display: flex;
+}
+.right{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ..............Header End ............*/
+
+/* ..............Section 1 Start ............*/
+.division{
+    background-color: #103178;
+    position: relative;
+    padding: 150px 0 150px 0;
+}
+.container1{
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.hand{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.hand img{
+    width: 100%;
+}
+.medical{
+    width: 34%;
+}
+.medical .word{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.medical h2{
+    font-size: 50px;
+}
+.word3{
+    color: white;
+}
+.word{
+    animation-name: medicine;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes medicine {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: rgb(0, 0, 0);}
+    100% {color: green;}
+}
+.word1{
+    color: #c7c700;
+}
+.word2{
+    color: grey;
+    font-size: large;
+}
+.medical a{
+    margin-top: 15px;
+    display: inline-block;
+    color: #fff;
+    background-color: #c7c700;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    font-size: small;
+}
+.medical a:hover{
+    background-color: green;
+    transition: 1s;
+}
+/* .hovereffect{
+    position: relative;
+    width: 50%;
+    margin: 20px 20px 20px 0;
+    overflow: hidden;
+    }
+    .hovereffect_img{
+    width: 100%;
+    background-color: rgba(253, 253, 253, 0);
+    padding: 10px;
+    color: rgb(128, 0, 0);
+
+    font-weight: bold;
+    }
+    .hovereffect::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(82, 255, 1, 0.712);
+    top: 0%;
+    left: -100%;
+    transition: all  0.5s;
+    }
+    .medical .hovereffect:hover::before{
+    left: 0%;
+    } */
+/* ..............Section 1 End ............*/
+
+/* ..............Section 2 Start ............*/
+.container2{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0 50px 0;
+}
+.container2 h3{
+    color: rgb(21, 255, 0);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+/* .container2 h3:hover{
+    animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+} */
+.photo{
+    padding: 25px 0 50px 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%; 
+}
+.photo > .photo1{
+    margin: 8px;
+}
+.photo1{
+    display: flex;
+    background-color: rgb(201, 191, 191);
+    width: 32%;
+    justify-content: space-between;
+}
+.gloves img:hover{
+    animation: zoomIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.black{
+    margin: 30px;
+    width: 24%;
+}
+.black a{
+    margin-top: 15px;
+    display: inline-block;
+    color: #103178;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    font-size: small;
+    animation-name: medicine1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes medicine1 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: rgb(0, 0, 0);}
+    100% {background-color: green;}
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.icon a{
+    font-size: 35px;
+    color: #103178;
+}
+.icon p{
+    margin-top: 20px;
+}
+/* ..............Section 2 End ..............*/
+
+/* ..............Section 3 Start ............*/
+.division1{
+    background-color: rgb(201, 191, 191);
+}
+.container3{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content1{
+    width: 30%;
+}
+.content1 h2{
+    font-size: 45px;
+    color: #103178;
+    font-family: 'Playfair Display', serif;
+}
+.content1 p{
+    margin: 25px 0 25px 0;
+}
+.youtube{
+    width: 50%;
+    height: 350px;
+}
+.bacteria{
+    width: 50%;
+    float: left;
+    text-decoration: none;
+}
+.bacteria1{
+    width: 50%;
+    text-decoration: none;
+}
+.content1 p, .bacteria, .bacteria1{
+    color: grey;
+}
+.content1 .btn{
+    margin-top: 25px;
+    display: inline-block;
+    color: #fff;
+    background-color: #c7c700;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    font-size: small;
+}
+.content1 .btn:hover{
+    background-color: green;
+    transition: 1s;
+}
+/* ..............Section 3 End ..............*/
+
+/* ..............Section 4 Start ............*/
+.container4{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0 30px 0;
+}
+.container4 h3{
+    text-align: center;
+    font-size: 30px;
+    color: #103178;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.flex-box1{
+    display: flex;
+}
+.blue_gloves{
+    color: #103178;
+    background-color: rgb(240, 236, 236);
+    width: 20%;
+    overflow: hidden;
+}
+.abc:hover{
+   transform: scale(1.2, 1.2);
+   transition: 1s;
+}
+.wor{
+    padding: 10px 0 20px 10px;
+}
+.doller{
+    font-size: 20px;
+    font-weight: bold;
+}
+.blue_gloves img{
+    width: 100%;
+}
+.blue_gloves span{
+    color: yellow;
+}
+.space{
+    overflow: hidden;
+    height: 195px;
+}
+/* ..............Section 4 End ..............*/
+
+/* ..............Section 5 Start ............*/
+.division2{
+    background-color: rgb(201, 191, 191);
+}
+.container5{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+.wor1{
+    width: 40%;
+    margin: auto;
+    color: #103178;
+    text-align: center;
+}
+.wor1 h2{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+.wor1 p{
+    margin-top: 20px;
+}
+.effective{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.effective1{
+    color: #103178;
+    width: 33%;
+    text-align: center;
+}
+.effective1 a{
+    font-size: 35px;
+    color: #103178;
+}
+.text2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+/* ..............Section 5 End ..............*/
+
+/* ..............Section 6 Start ............*/
+.container6{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0 50px 0;
+}
+.blog{
+    text-align: center;
+    font-size: 30px;
+    color: #103178;
+    font-family: 'Playfair Display', serif;
+}
+.hand_gloves{
+    width: 31%;
+}
+.hand_gloves p{
+    font-weight: bold;
+    font-size: 22px;
+}
+.hand_gloves img{
+    width: 100%;
+    border-radius: 4%;
+}
+small{
+    color: grey;
+    font-weight: bold;
+}
+.flex-box2{
+    margin-top: 20px;
+    color: #103178;
+    display: flex;
+    justify-content: space-between;
+}
+/* ..............Section 6 End ..............*/
+
+/* ..............Section 7 Start ............*/
+.division3{
+   background-color: rgb(201, 191, 191);
+}
+.container7{
+    margin: auto;
+    padding: 50px 0 50px 0;
+}
+.container7 h2{
+    font-size: 30px;
+    text-align: center;
+    color: #103178;
+    font-family: 'Playfair Display', serif;
+    animation-name: medicine;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.flex-box3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.blue_gloves1{
+    width: 23%;
+    background-color: white;
+    padding: 5px;
+    color: #103178;
+}
+.fa-star{
+    color: #c7c700;
+}
+.wor3{
+    padding: 15px 20px 15px 15px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.wor3:hover{
+    background-image: url(../images/Women.jpg);
+    transform: scale(1.05, 1.05);
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+}
+/* ..............Section 7 End ..............*/
+
+/* ..............Section 8 Start ............*/
+.container8{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0 50px 0;
+}
+input{
+    width: 33%;
+    padding: 10px;
+    border-radius: 20px; 
+    margin-top: 13px;
+    background-color: rgb(201, 191, 191); 
+}
+.container8 h3{
+    margin-bottom: 15px;
+    color: #103178;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.abc1{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 13px;
+    background-color: rgb(201, 191, 191);
+    resize: none;   
+}
+.btn1{
+    margin-top: 15px;
+    display: inline-block;
+    color: #fff;
+    background-color: #c7c700;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    font-size: small;
+    text-align: left;
+}
+.btn1:hover{
+    background-color: green;
+    transition: 1s;
+}
+/* ..............Section 8 End ..............*/
+
+/* ..............Section 9 Start ............*/
+.division4{
+    background-color: rgb(201, 191, 191);
+}
+.container9{
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0 40px 0;
+}
+.flex-box4{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+}
+.content12{
+    width: 28%;
+}
+.content12 .day{
+    margin-bottom: 30px;
+}
+.content12 .num{
+    margin-top: 20px;
+}
+.content12 h2{
+    font-size: 45px;
+    color: #103178;
+}
+.content12 p{
+    margin-top: 10px;
+}
+.map{
+    width: 60%;
+    height: 450px;
+}
+.mail{
+    margin-top: 15px;
+    display: inline-block;
+    color: #103178;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    font-size: small;
+    font-weight: bold;
+}
+.content12 a{
+    margin-bottom: 30px;
+}
+.num1{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.social_icon{
+    margin-top: 20px;
+}
+.social_icon a{
+    padding: 12px;
+    font-size: 20px;
+    color: rgb(71, 69, 69);
+}
+.social_icon a:hover{
+    background-color: green;
+    color: white;
+}
+/* ..............Section 9 End ..............*/
+
+/* ..............Section 10 Start ............*/
+.container10{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0 50px 0;
+}
+.flex-box5{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.flex-box5 ul li{
+    list-style-type: none;
+}
+.flex-box5 ul li a{
+    text-decoration: none;
+    color: #103178;
+    font-weight: bold;
+}
+.flex-box5 ul li a:hover{
+    color: green;
+}
+/* ..............Section 10 End ..............*/
+
+/* ..............Footer Start ............*/
+footer{
+    text-align: center;
+    color: white;
+    background-color: #103178;
+    font-weight: bold;
+    padding: 10px;
+}
+/* ..............Footer End ..............*/
+
