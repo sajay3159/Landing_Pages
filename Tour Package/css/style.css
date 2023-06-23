@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+/* Section 1 Start */
+.head {
+    background-color: #544c49db;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.main_img{
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+}
+.logo_img{
+    position: absolute;
+    max-width: 15%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #e29900;
+    border-color: #007bff00;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.form_move {
+    position: absolute;
+    /* left: 5%; */
+    bottom: 20px;
+    padding: 30px 60px;
+    background-color: #100d03ba;
+    border-radius: 10px;
+    margin-right: 8%;
+    margin-left: -13px;
+}
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.down {
+    padding-top: 31px;
+}
+/* Section 1 End */
+
+/* Section 2 Start */
+.top{
+    font-size: 95px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+.down1 {
+    text-align: justify;
+    position: absolute;
+    background-color: black;
+    top: 31%;
+    padding-right: 10px;
+}
+.border1{
+    border: 1px solid orange;
+    padding-bottom: 90px;
+}
+.text_color{
+    color: #e29900;
+}
+.bg_dark{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.center{
+    text-align: center;
+}
+.space{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 23.666667%;
+    max-width: 25.666667%;
+}
+/* Section 2 End */
+
+/* Section 3 Start */
+.btn-primary1{
+    margin-left: 70px;
+    margin-right: -45px;
+    color: #e29900;
+    background-color: #e29a0000;
+    border: 1px solid #e29900;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.btn-primary1:hover{
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.btn-primary2{
+    color: #fff;
+    background-color: #e29900;
+    border-color: #007bff00;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 70px;
+    margin-right: -45px;
+}
+.btn-primary2:hover{
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.sec3left::after {
+    content: '';
+    width: 42%;
+    height: 1px;
+    background-color: rgb(249, 177, 43);
+    position: absolute;
+    top: -11px;
+    right: -25px;
+}
+.sec3left::before {
+    content: '';
+    width: 1px;
+    height: 36%;
+    background-color: rgb(249, 177, 43);
+    position: absolute;
+    top: -41px;
+    right: 5px;
+}
+.sec3left1::after {
+    content: '';
+    width: 42%;
+    height: 1px;
+    background-color: rgb(249, 177, 43);
+    position: absolute;
+    top: 93%;
+    left: -11px;
+}
+.sec3left1::before {
+    content: '';
+    width: 1px;
+    height: 36%;
+    background-color: rgb(249, 177, 43);
+    position: absolute;
+    bottom: -9px;
+    left: 26px;
+}
+.sec3left2::before {   
+    content: '';
+    width: 1px;
+    height: 36%;
+    background-color: rgb(249, 177, 43);
+    position: absolute;
+    bottom: -27px;
+    left: 2px;
+}
+.sec3left2::after {  
+    content: '';
+    width: 42%;
+    height: 1px;
+    background-color: rgb(249, 177, 43);
+    position: absolute;
+    bottom: -2px;
+    left: -27px;
+}
+.sec3left3::before {
+    content: '';
+    width: 1px;
+    height: 36%;
+    background-color: rgb(249, 177, 43);
+    position: absolute;
+    top: -30px;
+    right: 25px;
+}
+.sec3left3::after {
+    content: '';
+    width: 42%;
+    height: 1px;
+    background-color: rgb(249, 177, 43);
+    position: absolute;
+    top: 12px;
+    right: -15px;
+}
+
+/* Section 3 End */
+
+/* Section 4 Start*/
+.back2{
+    padding-top: 30px;
+}
+.back p{
+    position: relative;
+    top: -34px;
+    text-align: center;
+    color: white;
+    background-color: #000000b0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.back1{
+    padding-right: 0;
+}
+.sec4cntr p {
+    position: absolute;
+    text-align: center;
+    bottom: -16px;
+    width: 100%;
+    color: white;
+    padding: 5px 0px;
+    background: rgb(24 14 14 / 61%);
+}
+.sec4cntr::before {
+    content: "";
+    position: absolute;
+    width: 92%;
+    height: 82%;
+    left: 11px;
+    top: 15px;
+    border: 2px solid rgb(249, 177, 43);
+}
+/* Section 4 End */
+
+/* Section 5 Start */
+.max_width{
+    max-width: 100%;
+}
+/* Section 5 End */
+
+/* Section 6 Start */
+.temple{
+    background-image: linear-gradient( rgb(46 6 6 / 50%), rgb(66 31 31 / 50%)), url(../images/temple.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    text-align: center;
+}
+.space1{
+    padding-left: 13%;
+    font-size: 40px;
+}
+.space2{
+    font-size: 40px;
+}
+.pad{
+    margin-top: 54px;
+}
+.owl-item.active.center {
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    width: 5% !important;
+    margin-right: 10px;
+}
+#slider3 .owl-item.active {
+    width: 5% !important;
+}
+#slider3 .owl-carousel .owl-stage-outer {
+    width: 51%;
+    margin: auto;
+}
+#slider3 .item{
+  padding: 20px;
+  margin: 20px;
+}
+.size{
+    width: 100px;
+    height: 100px;
+}
+.size1{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+/* Section 6 End */
+
+/* Section 7 Start */
+.bg_dark1{
+    background-color: black;
+    padding-top: 70px;
+}
+/* .no_gut{
+    padding-left: 0;
+    padding-right: 0;
+} */
+/* Section 7 End */
+
+/* Section 8 Start */
+.water{
+    background-image: linear-gradient( rgb(46 6 6 / 50%), rgb(66 31 31 / 50%)), url(../images/Coconut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-link1 {
+    display: block;
+    padding-top: 6px;
+}
+a.nav-link1{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-link2 {
+    display: block;
+    padding-top: 6px;
+}
+a.nav-link2{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 13px;
+}
+.space3{
+    padding-top: 30px;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+/* Section 8 End */
