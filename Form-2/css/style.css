@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    font-size: 20px;
+}
+.header{
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    width: 50%;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.lab{
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    line-height: 40px;
+}
+.lab1{
+    width: 50%;
+    float: right;
+    line-height: 40px;
+}
+.lab label{
+    width: 30%;
+    float: left;
+    clear: both;
+}
+.lab input{
+    width: 70%;
+    height: 35px;
+    float: right;
+    /* text-align: center; */
+}
+.lab1 label{
+    width: 30%;
+    float: left;
+    clear: both;
+}
+.lab1 input{
+    width: 70%;
+    height: 35px;
+    float: right;
+}
+.lab .gen{
+    width: 20%;
+    height: 18px;
+    float: none;
+}
+.lab1 .gen1{
+    width: 17%;
+    height: 18px;
+    float: none;
+}
+.lab1 .mari{
+    width: 19%;
+    height: 18px;
+    float: none;
+}
+.lab1 .add{
+    width: 100%;
+    line-height: 50px;
+}
+.lab .other_id{
+    width: 100%;
+}
+.lab .ste{
+    width: 30%;
+    float: left;
+}
+.lab .ste1{
+    width: 20%;
+    text-align: center;
+    clear: none;
+}
+.lab1 .ste{
+    width: 30%;
+    float: left;
+}
+.lab1 .ste1{
+    width: 20%;
+    text-align: center;
+    clear: none;
+}
+p {
+    clear: both;
+    padding-top: 20px;
+    text-indent: 50px;
+}

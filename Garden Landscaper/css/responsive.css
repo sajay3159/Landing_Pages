@@ -1,0 +1,102 @@
+@media screen and (max-width: 992px){
+    .logo{
+        width: 100%;
+        /* font-size: 10px; */
+    }
+    .img-fluid1 {
+        position: relative;
+        top: -10%;
+        width: 40%;
+        height: auto;
+        right: -60%;
+    }
+    .container2 {
+        max-width: 768px;
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        right: 0;
+        margin: auto;
+    }
+    .p-5 {
+        padding: 1rem!important;
+    }
+}
+@media screen and (max-width: 525px){
+    img.img-fluid {
+        margin-top: 30px;
+    }
+    .logo {
+        width: 100%;
+        font-size: 30px;
+    }
+    .bot{
+        padding-bottom: 30px;
+    }
+    .bot1{
+        padding: 0 !important;
+    }
+    .bot2{
+        margin-top: 0 !important;
+    }
+    .bot3{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .hide{
+        display: none;
+    }
+    .pad{
+        margin-left: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 767px){
+    img.img-fluid {
+        margin-top: 30px;
+    }
+    .bot{
+        padding-bottom: 30px;
+    }
+    .bot2{
+        margin-top: 0 !important;
+    }
+    .bot3{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .bot4{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* .container2 {
+        max-width: 768px !important;
+        position: absolute !important;
+        top: 10% !important;
+        left: 60% !important;
+        right: 0 !important;
+        margin: auto !important;
+    } */
+    .container2 {
+        max-width: 768px;
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        right: 0;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .container2 {
+        max-width: 1024px;
+        position: absolute;
+        top: 30%;
+        left: -7%;
+        right: 0;
+        margin: auto;
+    }
+}
+
+
+

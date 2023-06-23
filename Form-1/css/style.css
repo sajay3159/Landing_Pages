@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+   background-color: rgb(238, 127, 127);
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    font-size: 20px;
+}
+.header{
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    width: 50%;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.nav{
+    width: 50%;
+    float: left;
+    line-height: 55px; 
+}
+.nav1{
+    width: 50%;
+    float: left;
+    line-height: 55px;
+}
+input{
+    width: 450px;
+    height: 40px;
+}
+.abc{
+    float: right;
+    margin-right: 14px;
+    font-size: 20px;
+}
+.gen{
+    margin-left: 88px;
+    height: 25px;
+    width: 80px;
+}
+.abc1{
+    float: right;
+    font-size: 20px;
+}
+.abc2 {
+    height: 25px;
+    width: 80px;
+}
+.abc3 {
+    height: 25px;
+    width: 40px;
+}
+.abc4{
+    width: 100%;
+}
+.abc5{
+    width: 40%;
+    margin: 0px 0px 20px 82px;
+}
+.abc6{
+    width: 20%;
+}
+.abc7{
+    width: 40%;
+    margin: 0px 0px 20px 95px;
+}
+.abc8{
+    width: 20%;
+}
+p{
+    text-indent: 100px;
+}
+.mari{
+    width: 50%;
+}

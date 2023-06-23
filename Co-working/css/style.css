@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+/* Header */
+header{
+    background-color: #2D3337;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+
+.icon img{
+    float: left;
+    width: 15%;
+}
+.left li{
+    float: left;
+    display: inline;
+    padding: 25px 25px 25px 30px;
+}
+.left li a{
+    color: white;
+    text-decoration: none;
+}
+.left li:hover{
+    background-color: rgb(0, 255, 0);
+}
+.social{
+    float: right;
+    padding: 25px;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+    padding: 26px;
+}
+.social a:hover{
+    background-color: rgb(0, 255, 0);
+}
+/* Section 1 */
+.abt{
+    position: relative;
+    font-weight: 20px;
+}
+.abt img{
+    width: 100%;
+}
+.container1{
+    max-width: 1200px;
+    margin: auto;
+    font-weight: 600;
+}
+.container1 h1{
+    text-align: center;
+    font-size: 40px;
+}
+.container1 .text{
+    text-align: center;
+    font-size: small;
+    letter-spacing: 4px;
+}
+.container1 .text1{
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+}
+.container1 a{
+    margin: 43%;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(9, 204, 155);
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.container1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+}
+/* Section 2 */
+.container2{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 50px;
+}
+.content{
+    float: left;
+    width: 50%;
+}
+.content1{
+    width: 50%;
+    float: right;
+}
+.content p{
+    color: rgb(9, 204, 155);
+    letter-spacing: 4px;
+}
+.container2 .fa-solid{
+    color: green;
+}
+.container2 .fa-regular{
+    color: green;
+}
+.message{
+    width: 20%;
+    text-align: center;
+    clear: both;
+    margin: 60px 45px 0 0;
+    float: left;
+}
+.message a{
+    font-size: xx-large;
+}
+.message1{
+    width: 20%;
+    text-align: center;
+    margin: 60px 45px 0 0;
+    float: left;
+}
+.message1 a{
+    font-size: xx-large;
+}
+.message2{
+    width: 20%;
+    text-align: center;
+    margin: 60px 45px 0 0;
+    float: left;
+}
+.message2 a{
+    font-size: xx-large;
+}
+.message3{
+    width: 20%;
+    text-align: center;
+    margin: 60px 45px 0 0;
+    float: left;
+}
+.message3 a{
+    font-size: xx-large;
+}
+/* Section 3 */
+.container3{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 50px;
+    position: relative;
+}
+.photo{
+    width: 50%;
+    float: right;
+}
+.content4{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.content4 h2{
+    font-size: 30px;
+}
+.content4 .text4{
+    color: rgb(9, 204, 155);
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-size: small;
+}
+/* Section 4 */
+.container4{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+.overlay5 .wor{
+    font-size: small;
+    letter-spacing: 5px;
+}
+.hovereffect{
+    width: 30%;
+    height: auto;
+    position: relative;
+    background-color: red;
+    margin: 15px;
+    display: inline-block;
+    overflow: hidden;
+}
+.hovereffect p{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.hovereffect img{
+    width: 100%;
+    display: block;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    background-color:  red;
+    transition: all 0.5s;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.hovereffect:hover .overlay{
+    left: 0;
+}
+.overlay1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 100%;
+    background-color:  red;
+    transition: all 0.5s;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.hovereffect:hover .overlay1{
+    left: 0;
+}
+.overlay2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0%;
+    background-color:  red;
+    transition: all 0.5s;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.hovereffect:hover .overlay2{
+    top: 0;
+}
+.overlay3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0%;
+    background-color:  red;
+    transition: all 0.5s;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.hovereffect:hover .overlay3{
+    top: 0;
+}
+.hovereffect1{
+    width: 60%;
+    height: auto;
+    position: relative;
+    background-color: red;
+    margin-left: 15px;
+    display: inline-block;
+    overflow: hidden;
+}
+.hovereffect1 p{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.hovereffect1 img{
+    width: 100%;
+    display: block;
+}
+.overlay4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0%;
+    background-image: linear-gradient( rgba(13,31,110,0.49), rgba(13,31,110,0.49)), url(../images/Eye.avif);
+    transition: all 0.5s;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+.hovereffect1:hover .overlay4{
+    top: 0%;
+}
+.hovereffect2{
+    width: 30%;
+    height: auto;
+    position: relative;
+    background-color: red;
+    margin-left: 60px;
+    display: inline-block;
+    overflow: hidden;
+}
+.wor{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: small;
+}
+.wor1{
+    width: 70%;
+    margin: auto;
+    font-size: 25px;
+}
+.hovereffect2 img{
+    width: 100%;
+    display: block;
+}
+.overlay5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    background-color:  rgb(105, 107, 4);
+    transition: all 0.5s;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.hovereffect2:hover .overlay5{
+    top: 0;
+}
+/* Section 5 */
+.container5{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 50px;
+    text-align: center;
+}
+.work{
+    width: 25%;
+    float: left;
+    padding: 10px;
+    margin-top: 25px;
+}
+.container5 h2{
+    font-size: 30px;
+}
+.container5 p .text12{
+    font-size: small;
+    letter-spacing: 5px;
+}
+.work1{
+    width: 10%;
+}
+.content12{
+    width: 60%;
+    margin: auto;
+    clear: both;
+    padding: 50px 0 0 0;
+
+}
+.content12 .text11{
+    line-height: 50px;
+}
+.content12 .tetx{
+    line-height: 10px;
+    font-size: small;
+    color: rgb(0, 255, 0);
+}
+/* Section 6 */
+.container6{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 50px;
+    animation-name: blink1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+@keyframes blink1 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+.wfh{
+    width: 46%;
+    float: left;
+}
+.content13{
+    width: 50%;
+    float: right;
+    margin-top: 35px;
+}
+.content13 a{
+    display: block;
+    line-height: 35px;
+    text-decoration: none;
+    color: black;
+}
+a.btn1{
+    display: inline;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(0, 255, 191);
+    color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: 70px;
+}
+/* Section 7 */
+.container7{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 50px;
+    text-align: center;
+}
+.container7 .head{
+    letter-spacing: 4px;
+    font-size: small;
+    color: rgb(0, 255, 191);
+}
+.container7 h2{
+    font-size: 35px;
+}
+/* Section 8 */
+.footer{
+    background-color: #1a2025;
+    
+}
+.container8{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 50px;
+    color: white;
+}
+.cow{
+    width: 36%;
+    float: left;
+}
+.box{
+    border: 1px solid #ffffff3b;
+    width: 100%;
+    overflow: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+.word{
+    margin: 20px 0 15px 0;
+}
+.work2{
+   padding: 10px;
+   color: rgb(0, 255, 0);
+   font-size: 20px;
+}
+.work3{
+    padding: 10px;
+    color: aqua;
+    font-size: 20px;
+ }
+ .work4{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+ }
+.box1{
+    float: left;
+}
+.box2{
+    float: right;
+}
+p.word1{
+    margin-top: 20px;
+}
+.cow1{
+    width: 30%;
+    float: left;
+    padding: 0 30px 0 30px;
+    margin: 0 0 0 44px;
+}
+.cow2{
+    width: 30%;
+    float: right;
+    padding: 0 30px 0 30px;
+}
+.word2{
+    list-style: none;
+    margin: 20px 0 15px 0;
+    line-height: 40px;
+}
+.work5{
+    text-decoration: none;
+    color: white;
+}
+.cow2 a{
+    display: block;
+}
